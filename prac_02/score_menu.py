@@ -18,6 +18,7 @@ def main():
             print(f"User score {score} is {grade}")
         elif choice == "S":
             print_stars(score)
+        choice = get_valid_choice()
     print("Bye")
 
 
@@ -47,3 +48,6 @@ def get_valid_score():
 def print_stars(score):
     for i in range(score):
         print("*", end="")
+
+
+main()

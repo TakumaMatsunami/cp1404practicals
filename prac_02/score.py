@@ -4,6 +4,7 @@ Program to determine score status
 """
 from random import randint
 
+
 def main():
     user_score = float(input("Enter score: "))
     user_grade = determine_grade(user_score)
@@ -25,11 +26,9 @@ def determine_grade(score):
     else:
         return "Bad"
 
+
 def get_random_score():
     return randint(0, 100)
 
 
-
-
-
-main()
+# main()
