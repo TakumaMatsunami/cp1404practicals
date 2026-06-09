@@ -23,7 +23,7 @@ ascii_for_character = ord(input_character)
 print(f"The ASCII code for {input_character} is {ascii_for_character}")
 
 number = int(input(f"Enter a number between {MINIMUM_NUMBER} and {MAXIMUM_NUMBER}: "))
-while number < MAXIMUM_NUMBER or number > MINIMUM_NUMBER:
+while number > MAXIMUM_NUMBER or number < MINIMUM_NUMBER:
     print(f"number have to be between {MINIMUM_NUMBER}-{MAXIMUM_NUMBER}")
     number = int(input(f"Enter a number between {MINIMUM_NUMBER} and {MAXIMUM_NUMBER}: "))
 number_character = chr(number)
