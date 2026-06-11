@@ -28,16 +28,16 @@ print(f"Hello {user_name}!")
 
 # Q3
 FILENAME = "numbers.txt"
+number = 0
 with open(FILENAME, "r") as in_file:
-    number = 0
     for i in range(2):
         number += int(in_file.readline())
-    print(number)
+print(number)
 
 # Q4
 FILENAME = "numbers.txt"
+total = 0
 with open(FILENAME, "r") as in_file:
-    number = 0
     for line in in_file:
-        number += int(line)
-    print(number)
+        total += int(line)
+print(total)
