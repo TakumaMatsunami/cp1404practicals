@@ -56,6 +56,36 @@ for loops for dictionary
 
 set() {}
     it is a set of data without duplication
+
+set methods
+    difference, only 1 side
+        set_1 - set_2
+    union, entire set
+        set_1 | set_2
+    intersection, common values
+        set_1 & set_2
+    symmetric difference, everything that doesn't intersect
+        set_1 ^ set_2
+
+comprehensions for dictionary
+    have to set a key to make it into a dictionary or else it will become a set
+    eg: {str(number): number for number in numbers}
+
+make dictionary from a list
+    use zip(), create a tuple pairs from two parallel lists
+    by wrapping that zip() using dict() it will create it into a dictionary
+
+Java Script Object Notation (JSON)
+    imports json module
+    use load function to convert text to dict
+    use dump function to convert dict to text
+
+use requests to get things from an api (website)
+    import requests
+    text = requests.get(URL)
+
+Code Review
+
 """
 
 # Write code for a function that takes two lists: a list of names, and a corresponding list of ages.
