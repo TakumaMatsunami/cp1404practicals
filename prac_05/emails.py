@@ -1,7 +1,7 @@
 """
 Word Occurrences
 Estimate: 30 minutes
-Actual:  minutes
+Actual: 18 minutes
 """
 name_to_email = {}
 
